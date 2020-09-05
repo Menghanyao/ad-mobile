@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"input .",[1],"label.",[1],"data-v-4d03bf8e{ font-size: ",[0,32],"; }\n",],undefined,{path:"./pages/info/info.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/info/info.wxml') } }));

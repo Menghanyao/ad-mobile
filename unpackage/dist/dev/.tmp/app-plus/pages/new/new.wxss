@@ -1,0 +1,69 @@
+
+.new-btn-view {
+	width: 750rpx;
+	margin-bottom: 10rpx;
+}
+.new-btn-view view {
+	opacity: 0.75;
+	height: 80rpx;
+	border-radius: 80rpx;
+	width: 80rpx;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 80rpx;
+	margin: 0 40px;
+	font-family: texticons;
+	background: #eee;
+	color: #555;
+}
+.new-btn-view .like:before {
+	/* content: '❤'; */
+	/* content: '♡♥'; */
+	content: '\2764';
+}
+.liked:before {
+	background: #FF80AB;
+	-webkit-transition: all .8s;
+	-o-transition: all .8s;
+	transition: all .8s;
+	height: 80rpx;
+	border-radius: 80rpx;
+	width: 80rpx;
+	text-align: center;
+}
+.new-btn-view .download:before {
+	content: '\E617';
+}
+.new-btn-view .collect:before {
+	/* content: '\e68d'; */
+	content: '\2192';
+}
+.btn-bottom {
+	margin-left: 250rpx;
+}
+.progress {
+	margin: 0px auto;
+	margin-left: 0px;
+	height: 3px;
+	/* background: #007AFF; */
+	background: #FF80AB;
+	-webkit-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+.success {
+	/* background: aquamarine; */
+	background: forestgreen;
+}
+.jubao {
+	background: #E96900;
+	left: 20rpx;
+	width: 60rpx;
+}
+

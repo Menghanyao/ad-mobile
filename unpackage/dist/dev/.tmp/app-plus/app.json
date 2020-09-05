@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/new/new",
+    "pages/hot/hot",
+    "pages/detail/detail",
+    "pages/tag/tag",
+    "pages/list/list",
+    "pages/center/center",
+    "pages/login/login",
+    "pages/about/about",
+    "pages/registry/registry",
+    "pages/info/info"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "操作方法",
+    "navigationBarBackgroundColor": "#333333",
+    "backgroundColor": "#EFEFEF"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#FF80AB",
+    "borderStyle": "black",
+    "backgroundColor": "#333333",
+    "list": [
+      {
+        "pagePath": "pages/new/new",
+        "iconPath": "static/index-0.png",
+        "selectedIconPath": "static/index-1.png",
+        "text": "最 新"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/center-0.png",
+        "selectedIconPath": "static/center-1.png",
+        "text": "我 的"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "HelloWorld",
+  "compilerVersion": "2.4.2",
+  "usingComponents": {}
+}
